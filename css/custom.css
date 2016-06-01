@@ -40,6 +40,7 @@
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
+    
 
     .navbar-fixed-top .navbar-brand {
         font-size: 1em;
@@ -80,9 +81,14 @@
     border: 0;
 }
     
+  @media (max-width: 800px) { .navbar-fixed-top .navbar-brand {
+        font-size: 1em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
     
-    
-    
+    }
     
     
     
@@ -185,6 +191,11 @@
 .navbar-custom .navbar-link:hover {
   color: #002141;custom
 }
+
+@media (max-width: 800px) { 
+
+
+
 
 @media (max-width: 767px) {
   .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
