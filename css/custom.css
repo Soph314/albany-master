@@ -16,7 +16,14 @@
 					/*	{font-family: 'Open Sans', sans-serif;}*/
 						
 						
-						
+	# override @media (max-width: 600px) { .navbar-fixed-top .navbar-brand {
+        font-size: 1em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+    
+    }					
 						
 						
 						
@@ -81,14 +88,7 @@
     border: 0;
 }
     
-  @media (max-width: 800px) { .navbar-fixed-top .navbar-brand {
-        font-size: 1em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-    
-    }
+  
     
     
     
