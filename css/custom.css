@@ -2,6 +2,11 @@
 @import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
 
 
+body { 
+    padding-top: 100px; 
+}
+
+
 /*HEADER*/    
   
  header {
