@@ -74,7 +74,7 @@ header .intro-text .motto {
 					/*	{font-family: 'Open Sans', sans-serif;}*/
 						
 						
-	# override @media (max-width: 600px) { .navbar-fixed-top .navbar-brand {
+	 @media (max-width: 600px) { #override .navbar-fixed-top .navbar-brand {
         font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
