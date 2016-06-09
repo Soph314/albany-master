@@ -28,36 +28,6 @@
 <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50" id="override">
 
 
-
-<!--
-<nav class="navbar navbar-custom navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                          
-      </button>
-      <a class="navbar-brand navbar-custom"  href="#">Albany St Medical Centre</a>
-    </div>
-    <div>
-      <div class="nav-collapse navbar-collapse" id="myNavbar" data-toggle="collapse" data-target=".nav-collapse" >
-        <ul class= "nav navbar-nav navbar-right">
-        				
-						<li> <a href = "#home"> Home </a></li>
-        				<li> <a href = "#about"> About Us </a></li>
-						<li> <a href = "#team"> The Team</a></li>
-						<li> <a href = "#services"> Services</a></li>
-						<li> <a href = "#info"> Information </a></li>
-						<li> <a href = "#contacts"> Contact Us </a></li>
-          			
-        </ul>
-      </div>
-    </div>
-  </div>
-</nav>  -->
   
   <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -101,18 +71,21 @@
 </div> 
   
   
-<!--HEADER-->		
-<section>
-<div class = "container  " id="header" style= "width: 100% " >		
-		<div class="row col-lg-12 padding-0" id="header">
-			<p style= "width: 100vw ">Welcome to</p>
-			<h1 style= "width: 100vw ">Albany St Medical Centre</h1>
-    </div>    
-</div> 
-</section>
-<!--HEADER end-->				
+<!-- HEADER	-->				
 		
-			
+<header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="welcome"> Welcome to </span>
+                        <span class="name">Albany St Medical Centre</span>
+                        <span class="motto">Your Healthcare in the Heart of Dunedin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>			
 
 
 <!--About Us -->
@@ -124,8 +97,7 @@
 			<div class= "row">
 				<div class="col-md-8">
 				<p>Albany St Medical Centre is a central city general practice with an experienced clinical team of three GPs and two nurses.</p>
-				<p> We are enthusiastic about delivering highest quality patient centered care to all.</p>
-MISSION STATEMENT 
+				<p> We are enthusiastic about delivering highest quality patient centered care to all.</p> 
 
 Our enrolled patient population reflects Dunedin’s multicultural mix.  If you have difficulties with English ask our reception staff about arranging language line interpretation for your appointment.
 
@@ -133,7 +105,7 @@ The practice started when Albany House was built in 1998. The building houses Al
 </p>
 				</div>
 				<div class = "col-md-4">
-					<img src="images/centre.jpg" class="img-responsive" alt="image">
+					<img src="images/group_photo.jpg" class="img-responsive" alt="image">
 				</div>
 			</div>
 		</section>	
@@ -584,7 +556,7 @@ For normal results we can notify you by text message.  Alternately you can phone
   	
 <script>  	$('.nav a').on('click', function(){
 
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+    $('.navbar-toggle').click() 
 });
 </script>
 
